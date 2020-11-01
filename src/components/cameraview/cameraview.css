@@ -1,0 +1,65 @@
+.view_cam{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cam_show {
+    flex:50%;
+}
+.cctv{
+    width:80px;
+    height:60px;
+    margin-left: 30px;
+}
+.view{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.snapshot{
+    flex:50%;
+    padding-top: 25px;
+}
+.slider_img{
+    width:500px;
+    height:300px;
+}
+
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    margin-bottom: 10px; 
+} 
+  
+.icon { 
+    padding: 6px; 
+    color: gray; 
+    text-align: center; 
+} 
+  
+.input-field { 
+    padding: 5px; 
+    text-align: center; 
+    width:210px;
+} 
+.input-field:focus{
+    outline: 2px solid #4696EB;
+    border:none;
+}
+
+#select-field{
+    padding: 3px 0 6px 0; 
+    text-align: center;
+    margin-left: 1px; 
+    color: gray; 
+}
+.select-field:focus{
+    outline: 2px solid #4696EB;
+    border:none;
+}
+
+.search_container{
+    padding:150px 0 0 100px;
+    line-height: 30px;
+}

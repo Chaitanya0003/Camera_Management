@@ -1,0 +1,21 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color:lightslategray
+}
+
+.head_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.textstyle{
+    font-size: 30px;
+    text-align: center;
+    flex:80%;
+    font-weight: bold;
+}
+.pic{
+    width:60px;
+    height:40px;
+}
